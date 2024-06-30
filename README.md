@@ -7,3 +7,4 @@ As output:
 • The history of card played
 • The ranking of players at the end of the successive games.
 Time spent- 5 hours to complete everything from code to write unit test to ReadMe file.
+ 
