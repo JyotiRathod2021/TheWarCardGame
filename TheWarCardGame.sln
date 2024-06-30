@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWarCardGame", "TheWarCardGame\TheWarCardGame.csproj", "{63A32E22-4D46-4CA6-9708-7BDF269C66E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheWarGameTest", "TheWarGameTest\TheWarGameTest.csproj", "{8CAFFFDB-3D17-44A0-AFEC-6671C78F783C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A32E22-4D46-4CA6-9708-7BDF269C66E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A32E22-4D46-4CA6-9708-7BDF269C66E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A32E22-4D46-4CA6-9708-7BDF269C66E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A32E22-4D46-4CA6-9708-7BDF269C66E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAFFFDB-3D17-44A0-AFEC-6671C78F783C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAFFFDB-3D17-44A0-AFEC-6671C78F783C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAFFFDB-3D17-44A0-AFEC-6671C78F783C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAFFFDB-3D17-44A0-AFEC-6671C78F783C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3FAFA86-2605-495D-946C-CF47043EB9EA}
+	EndGlobalSection
+EndGlobal
