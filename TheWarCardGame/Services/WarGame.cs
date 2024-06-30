@@ -74,7 +74,7 @@ namespace TheWarCardGame.Services
             }
         }
 
-        private void PlayWar(List<IPlayers> warPlayers, List<Card> accumulatedCards)
+        private void PlayWar(List<IPlayers> warPlayers, List<Card> DepositCard)
         {
             bool warResolved = false;
 
@@ -89,7 +89,7 @@ namespace TheWarCardGame.Services
                     {
                         var cards = player.FlipWarCard();
                         warCards.Add(player, cards);
-                        accumulatedCards.AddRange(cards);
+                        DepositCard.AddRange(cards);
                         _history.Add($"{player.Name} places 3 cards face-down and 1 card face-up: {cards[3]}");
                     }
                     else
@@ -101,7 +101,7 @@ namespace TheWarCardGame.Services
 
                 if (warPlayers.Count == 1)
                 {
-                    warPlayers[0].CollectCard(accumulatedCards);
+                    warPlayers[0].CollectCard(DepositCard);
                     _history.Add($"{warPlayers[0].Name} wins the war and collects all cards");
                     warResolved = true;
                 }
@@ -124,7 +124,7 @@ namespace TheWarCardGame.Services
 
                     if (newWinners.Count == 1)
                     {
-                        newWinners[0].CollectCard(accumulatedCards);
+                        newWinners[0].CollectCard(DepositCard);
                         _history.Add($"{newWinners[0].Name} wins the war and collects all cards");
                         warResolved = true;
                     }
