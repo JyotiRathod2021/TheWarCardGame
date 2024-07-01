@@ -18,7 +18,7 @@ namespace TheWarCardGame
             Console.Write("Enter number of successive games to run: ");
             int numGames = int.Parse(Console.ReadLine());
 
-            for (int gameNumber = 1; gameNumber <= numGames; gameNumber++)
+            for (int i = 1; i <= numGames; i++)
             {
                 IWarGame warGame = new WarGame(numPlayers);
                 warGame.Play();

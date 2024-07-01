@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TheWarCardGame.Model;
+﻿using TheWarCardGame.Model;
 using TheWarCardGame.Services;
 
 namespace TheWarGameTest
