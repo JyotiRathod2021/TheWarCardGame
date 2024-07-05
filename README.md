@@ -8,4 +8,5 @@ As output:
 • The ranking of players at the end of the successive games.
 Time spent- 5 hours to complete everything from code to write unit test to ReadMe file.
 # please find attached document for more information on my findings in this problem
-[Goal.docx](https://github.com/user-attachments/files/16050947/Goal.docx)
+
+[Goal.docx](https://github.com/user-attachments/files/16112892/Goal.docx)
